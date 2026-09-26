@@ -16,7 +16,7 @@
 
 ### 📥 ¿Listo para probarlo?
 
-[![Descargar APK](https://img.shields.io/badge/Descargar_APK-Xuper_TV_Reborn+-success?style=for-the-badge&logo=android)]((https://github.com/markbn15/Xuper-TV-Reborn-/releases))
+[![Descargar APK](https://img.shields.io/badge/Descargar_APK-Xuper_TV_Reborn+-success?style=for-the-badge&logo=android)](https://github.com/markbn15/Xuper-TV-Reborn-/releases)
 
 </div>
 
