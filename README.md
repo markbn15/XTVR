@@ -4,38 +4,58 @@
   <img width="912" height="912" alt="icon" src="https://github.com/user-attachments/assets/34c645fb-cf06-4a9a-b969-7acf3409ef86" />
 </p>
 
-Xuper TV Reborn+ es una aplicación de código abierto de alto rendimiento desarrollada en Kotlin y optimizada tanto para Android TV (con navegación adaptada para control remoto mediante Leanback) como para dispositivos móviles. Funciona como una interfaz avanzada y unificada para la reproducción y agregación de contenido multimedia proveniente de múltiples proveedores externos.
-✨ Características Principales
-•
-📺 Interfaz Dual Adaptativa (TV y Móvil): Diseñada específicamente para ofrecer una experiencia de usuario fluida y limpia tanto en pantallas grandes con D-pad como en smartphones táctiles.
-•
-🔌 Proveedores Múltiples: Agrega contenido (películas, series, anime y televisión en vivo/deportes) de diversos proveedores externos de streaming.
-•
-🎬 Integración con TMDB: Sincronización de metadatos detallados, carátulas, sinopsis, valoraciones y reparto gracias a la API de TMDB.
-•
-☁️ Sincronización en la Nube (Supabase): Permite iniciar sesión y sincronizar automáticamente el historial de reproducción, favoritos y datos de usuario entre diferentes dispositivos.
-•
-🛡️ Control Parental: Sistema de protección mediante PIN numérico y restricciones de edad configurables.
-•
-⚙️ Ajustes Avanzados de Reproducción: Control de búfer, gestos en pantalla (en móvil), subtítulos automáticos y soporte para reproductores externos.
-•
-🌐 Herramientas de Red: Configuración de DNS sobre HTTPS (DoH) y escáner QR para la importación rápida de configuraciones o enlaces de bypass.
-•
-🔄 Actualizador Integrado y Optimización de Arquitectura:
-◦
-Comprobación automática de actualizaciones mediante GitHub Releases.
-◦
-Compilación optimizada con ABI Splits (armeabi-v7a, arm64-v8a, x86, x86_64) para reducir el tamaño de instalación y garantizar la máxima compatibilidad con cualquier TV Box o teléfono.
-🛠️ Tecnologías y Stack
-•
-Lenguaje: Kotlin (Coroutines, Flow)
-•
-UI: Android Leanback, ViewBinding, Material Design
-•
-Red: Retrofit 2, OkHttp, DNS over HTTPS (DoH), Jsoup
-•
-Base de Datos & Almacenamiento: Room DB, SharedPreferences
-•
-Multimedia: ExoPlayer / Media3
-•
-Backend / Sincronización: Supabase (Auth, Postgrest, Realtime)
+<div align="center">
+
+# 🚀 Xuper TV Reborn+
+
+[![Kotlin](https://img.shields.io/badge/Kotlin-100%25-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)](https://kotlinlang.org/)
+[![License](https://img.shields.io/badge/Licencia-Apache_2.0-2A2F35?style=for-the-badge&logo=apache&logoColor=red)](LICENSE)
+[![Download](https://img.shields.io/badge/Descargar-Última_Versión-007EC6?style=for-the-badge&logo=github&logoColor=white)](https://github.com/usuario/repositorio/releases/latest)
+
+<div align="center">
+
+### 📥 ¿Listo para probarlo?
+
+[![Descargar APK](https://img.shields.io/badge/Descargar_APK-Xuper_TV_Reborn+-success?style=for-the-badge&logo=android)](https://github.com/usuario/repositorio/releases/latest)
+
+</div>
+
+**Aplicación de código abierto de alto rendimiento para Android TV y dispositivos móviles.**  
+*Interfaz avanzada y unificada para la reproducción y agregación de contenido multimedia.*
+
+---
+
+</div>
+
+## 📌 Descripción General
+
+**Xuper TV Reborn+** es una solución multimedia nativa escrita en **Kotlin**, optimizada tanto para pantallas grandes mediante navegación adaptada a control remoto (Leanback) como para dispositivos móviles táctiles. Funciona como un agregador completo que sincroniza metadatos y reproduce contenido de múltiples proveedores externos.
+
+---
+
+## ✨ Características Principales
+
+| Categoría | Descripción |
+| :--- | :--- |
+| 📺 **Interfaz Dual Adaptativa** | Experiencia nativa fluida con soporte para D-pad en Android TV / TV Box y navegación gestual en SmartPhones. |
+| 🔌 **Agregador Multiproveedor** | Centraliza películas, series, anime y televisión en vivo / deportes desde proveedores externos. |
+| 🎬 **Metadatos con TMDB** | Sincronización automática de carátulas, sinopsis, reparto, valoraciones y detalles de contenido vía API. |
+| ☁️ **Sincronización en la Nube** | Respaldado por **Supabase** para mantener el historial, favoritos y datos del usuario al día entre dispositivos. |
+| 🛡️ **Control Parental** | Restricciones de edad configurables mediante un sistema de PIN numérico de seguridad. |
+| ⚙️ **Reproductor Avanzado** | Ajustes de búfer, gestos táctiles, subtítulos automáticos y soporte para reproductores externos. |
+| 🌐 **Herramientas de Red** | Integración de **DNS sobre HTTPS (DoH)** y lector de códigos QR para la importación rápida de enlaces o configuraciones. |
+| 🔄 **Actualizaciones & Optimización** | Comprobación de actualizaciones desde GitHub Releases y compilación ligera por **ABI Splits** (`armeabi-v7a`, `arm64-v8a`, `x86`, `x86_64`). |
+
+---
+
+## 🛠️ Tecnologías y Stack
+
+* **Lenguaje:** Kotlin (Coroutines, Flow)
+* **UI:** Android Leanback, ViewBinding, Material Design
+* **Red:** Retrofit 2, OkHttp, DNS over HTTPS (DoH), Jsoup
+* **Base de Datos:** Room DB, SharedPreferences
+* **Multimedia:** ExoPlayer / Media3
+* **Backend:** Supabase (Auth, Postgrest, Realtime)
+
+---
+
