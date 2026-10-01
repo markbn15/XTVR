@@ -4,5 +4,5 @@
   {"usuario": "Luis", "activo": true},
   {"usuario": "donpepe", "activo": true},
   {"usuario": "donpepe", "activo": true},
-  {"usuario": "usuario1", "activo": true}
+  {"usuario": "usuario1", "activo": false}
 ]
