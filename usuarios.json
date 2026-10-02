@@ -3,5 +3,5 @@
   {"usuario": "donpepe", "activo": true},
   {"usuario": "Luis", "activo": true},
   {"usuario": "willy", "activo": true},
-  {"usuario": "usuario1", "activo": true}
+  {"usuario": "usuario1", "desactivado": false}
 ]
