@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="VideoPlayer" extends="Group">
+    <script type="text/brightscript" uri="pkg:/components/VideoPlayer.brs" />
+    
+    <children>
+        <!-- Nodo del reproductor de video -->
+        <Video id="video" width="1920" height="1080" translation="[0,0]" />
+        
+        <!-- Barra de controles OSD e iconos visuales -->
+        <Group id="osd" visible="false">
+            <Poster id="osdBackground" uri="pkg:/images/ui/glass_osd_bar.png" width="1920" height="180" translation="[0,900]" />
+            <Poster id="rewindBtn" uri="pkg:/images/ui/rew15.png" width="64" height="64" translation="[700, 958]" />
+            <Poster id="playPauseBtn" uri="pkg:/images/ui/play.png" width="64" height="64" translation="[928, 958]" />
+            <Poster id="forwardBtn" uri="pkg:/images/ui/fwd15.png" width="64" height="64" translation="[1156, 958]" />
+            
+            <Label id="titleLabel" translation="[90, 920]" width="600" height="40" font="font:MediumSystemFont" color="0xFFFFFFFF" />
+            <Label id="timeLabel" translation="[1500, 920]" width="320" height="40" font="font:SmallSystemFont" color="0xCCCCCCFF" />
+            <Poster id="progressBar" width="1740" height="8" translation="[90, 1020]" color="0x00A8FFFF" />
+        </Group>
+
+        <!-- Indicador flotante en pantalla (Toast/Flash) -->
+        <Group id="flashToast" visible="false" translation="[860, 500]">
+            <Rectangle width="200" height="80" color="0x000000AA" />
+            <Label id="flashText" width="200" height="80" horizAlign="center" vertAlign="center" color="0xFFFFFFFF" />
+        </Group>
+    </children>
+</component>
